@@ -79,7 +79,9 @@
     },
 
     unblock: function() {
-      this.blocker.remove();
+        if(this.blocker){
+            this.blocker.remove();
+        }
     },
 
     show: function() {
