@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.add_dependency "thor",     "~> 0.14"
   s.add_dependency "jquery-ui-rails"
   s.add_dependency "uuidtools"
-  s.add_dependency "sass-rails", ">= 4", "< 5.0"
+  s.add_dependency "sass-rails", ">= 4.0.0.rc1", "< 5.0"
 
   s.files        = `git ls-files`.split("\n")
   s.executables  = `git ls-files -- bin/*`.split("\n").map { |f| File.basename(f) }
